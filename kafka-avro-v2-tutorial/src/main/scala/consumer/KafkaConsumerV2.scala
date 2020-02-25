@@ -13,8 +13,8 @@ import io.confluent.kafka.serializers.{KafkaAvroDeserializer, KafkaAvroDeseriali
 
 import scala.collection.JavaConverters._
 
-object KafkaConsumerV1 extends App {
-  val logger = LoggerFactory.getLogger(KafkaConsumerV1.getClass)
+object KafkaConsumerV2 extends App {
+  val logger = LoggerFactory.getLogger(KafkaConsumerV2.getClass)
 
   //Create consumer config
   val properties = new Properties()

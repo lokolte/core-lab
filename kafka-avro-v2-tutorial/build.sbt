@@ -1,6 +1,5 @@
-import sbt.Resolver
 
-name := "kafka-avro-tutorial"
+name := "kafka-avro-v2-tutorial"
 
 version := "0.1"
 
