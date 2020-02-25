@@ -21,4 +21,3 @@ libraryDependencies ++= Seq("org.apache.avro" % "avro" % avroVersion,
 
 
 AvroConfig / sourceDirectory := file("src/main/resources/avro")
-AvroConfig / javaSource := file("src/main/avro_generated")
