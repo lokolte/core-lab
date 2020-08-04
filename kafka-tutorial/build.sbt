@@ -2,7 +2,7 @@ name := "kafka-tutorial"
 
 version := "0.1"
 
-scalaVersion := "2.12.7"
+scalaVersion := "2.13.1"
 
 // https://mvnrepository.com/artifact/org.apache.kafka/kafka
 libraryDependencies ++= Seq(

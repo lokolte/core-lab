@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03563cf5-d0ca-4405-8796-4bfa8008d870" name="Default Changelist" comment="" />
+    <list default="true" id="03563cf5-d0ca-4405-8796-4bfa8008d870" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kafka-avro-tutorial-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kafka-avro-tutorial-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kafka-avro-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kafka-avro-tutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -31,17 +35,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="kafka-avro-tutorial" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="kafka-avro-tutorial" type="f1a62948:ProjectNode" />
-                <item name="kafka-avro-tutorial" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="kafka-avro-tutorial" type="f1a62948:ProjectNode" />
-                <item name="kafka-avro-tutorial" type="2d1252cf:ModuleNode" />
-                <item name="sbt tasks" type="d9357504:SbtViewContributor$SbtTasksGroupNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -50,33 +43,42 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="16" selection-end-column="62" />
+            <state relative-caret-position="-7">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/librarymanagement-core_2.12-1.3.1.jar!/sbt/librarymanagement/ResolverFunctions.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/producer/KafkaProducerV1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="49" />
+            <state relative-caret-position="495">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding>
                 <element signature="e#18#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar!/org/slf4j/LoggerFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="386" column="25" selection-start-line="386" selection-start-column="25" selection-end-line="386" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar!/org/slf4j/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="355" column="16" selection-start-line="355" selection-start-column="16" selection-end-line="355" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -94,16 +96,16 @@
         <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="45" lean-forward="true" selection-start-column="31" selection-end-column="45" />
+              <caret column="45" selection-start-column="31" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/consumer/KafkaConsumerV1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="-7">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#18#43#0" expanded="true" />
               </folding>
@@ -112,37 +114,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/http/packages.confluent.io/maven/org/apache/kafka/kafka-clients/5.4.0-ccs/kafka-clients-5.4.0-ccs-sources.jar!/org/apache/kafka/clients/consumer/ConsumerRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="276" column="18" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/http/packages.confluent.io/maven/org/apache/kafka/kafka-clients/5.4.0-ccs/kafka-clients-5.4.0-ccs-sources.jar!/org/apache/kafka/clients/producer/ProducerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="202" column="18" selection-start-line="202" selection-start-column="14" selection-end-line="202" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/util/KafkaConstants.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
+            <state>
               <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/avro_generated/com/ww/UserV1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="130" column="20" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -157,6 +132,9 @@
       <find>setfir</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -169,17 +147,21 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1830" />
     <option name="y" value="23" />
-    <option name="width" value="1897" />
-    <option name="height" value="989" />
+    <option name="width" value="2170" />
+    <option name="height" value="1330" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,21 +184,6 @@
               <item name="kafka-avro-tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka-avro-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="avro_generated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka-avro-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="avro_generated" type="462c0819:PsiDirectoryNode" />
-              <item name="ww" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
@@ -271,97 +238,19 @@
             <path>
               <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: org.apache.kafka:kafka-clients:5.4.0-ccs:jar" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: org.apache.kafka:kafka-clients:5.4.0-ccs:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-5.4.0-ccs.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: org.apache.kafka:kafka-clients:5.4.0-ccs:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-5.4.0-ccs.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: org.apache.kafka:kafka-clients:5.4.0-ccs:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-5.4.0-ccs.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: org.apache.kafka:kafka-clients:5.4.0-ccs:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-5.4.0-ccs.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: org.apache.kafka:kafka-clients:5.4.0-ccs:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-5.4.0-ccs.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="librarymanagement-core_2.12-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="librarymanagement-core_2.12-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sbt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="librarymanagement-core_2.12-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sbt" type="462c0819:PsiDirectoryNode" />
-              <item name="librarymanagement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="main-settings_2.12-1.3.8.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-avro-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="main-settings_2.12-1.3.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sbt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583869826601" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -433,7 +322,7 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="kafka-avro-tutorial [file:/Users/anoo.muthuswaami/GitHubRepos/kafka-avro-tutorial/]" />
+                <option name="name" value="kafka-avro-tutorial [file:/Users/jesusaguilar/projects/git/core-lab/kafka-avro-tutorial/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -447,13 +336,15 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="687157782" />
-        <entry key="$PROJECT_DIR$/project/build.properties" value="1244562550" />
-        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="651105641" />
+        <entry key="$PROJECT_DIR$" value="4751593557000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2701769291" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2563585714" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2389860882" />
       </map>
     </option>
     <option name="projectSyncType">
       <map>
+        <entry key="$USER_HOME$/IdeaProjects/LearnScala" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../anonymization-audit-service" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../anonymization-feeder" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../core-assessment-service" value="PREVIEW" />
@@ -474,9 +365,11 @@
         <entry key="$PROJECT_DIR$/../kinesis-consumer-poc" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../play-mongo-template" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../reactive-kinesis" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/LearnScala" value="PREVIEW" />
       </map>
     </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -493,26 +386,18 @@
     <option name="totallyTimeSpent" value="12092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="989" extended-state="6" />
-    <editor active="true" />
+    <frame x="1830" y="23" width="2170" height="1330" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="LDAP" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16635339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32951945" />
-      <window_info anchor="bottom" id="SBT Console" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32951945" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="LDAP" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="SBT Execute" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.52059495" />
@@ -520,19 +405,28 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="sbt" weight="0.32960597" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Json Parser" />
-      <window_info anchor="right" id="Snyk" side_tool="true" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32951945" />
+      <window_info anchor="bottom" id="SBT Console" order="8" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.32951945" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="sbt" order="5" weight="0.3294173" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Json Parser" order="8" />
+      <window_info anchor="right" id="Snyk" order="9" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,86 +436,16 @@
     <entry file="file://$PROJECT_DIR$/project/build.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/main_2.12-1.3.8.jar!/sbt/Keys.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/streams/avro/generate/_global/streams/out">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/scala-2.12/src_managed/main/compiled_avro/com/ww/UserV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="168" column="5" selection-start-line="166" selection-start-column="23" selection-end-line="168" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.9.2/avro-1.9.2-sources.jar!/org/apache/avro/specific/SpecificRecordBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/main-settings_2.12-1.3.8.jar!/sbt/SlashSyntax.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/main-settings_2.12-1.3.8.jar!/sbt/Scoped.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/librarymanagement-core_2.12-1.3.1.jar!/sbt/librarymanagement/ResolverFunctions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/http/packages.confluent.io/maven/org/apache/kafka/kafka-clients/5.4.0-ccs/kafka-clients-5.4.0-ccs-sources.jar!/org/apache/kafka/clients/producer/ProducerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="202" column="18" selection-start-line="202" selection-start-column="14" selection-end-line="202" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/http/packages.confluent.io/maven/org/apache/kafka/kafka-clients/5.4.0-ccs/kafka-clients-5.4.0-ccs-sources.jar!/org/apache/kafka/clients/consumer/ConsumerRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="276" column="18" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/util/KafkaConstants.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" lean-forward="true" selection-start-column="31" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/avro_generated/com/ww/UserV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="130" column="20" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/main_2.12-1.3.8.jar!/sbt/Keys.class" />
+    <entry file="file://$PROJECT_DIR$/target/streams/avro/generate/_global/streams/out" />
+    <entry file="file://$PROJECT_DIR$/target/scala-2.12/src_managed/main/compiled_avro/com/ww/UserV1.java" />
+    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.9.2/avro-1.9.2-sources.jar!/org/apache/avro/specific/SpecificRecordBase.java" />
+    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/main-settings_2.12-1.3.8.jar!/sbt/SlashSyntax.class" />
+    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/main-settings_2.12-1.3.8.jar!/sbt/Scoped.class" />
+    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/librarymanagement-core_2.12-1.3.1.jar!/sbt/librarymanagement/ResolverFunctions.class" />
+    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/http/packages.confluent.io/maven/org/apache/kafka/kafka-clients/5.4.0-ccs/kafka-clients-5.4.0-ccs-sources.jar!/org/apache/kafka/clients/producer/ProducerConfig.java" />
+    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/http/packages.confluent.io/maven/org/apache/kafka/kafka-clients/5.4.0-ccs/kafka-clients-5.4.0-ccs-sources.jar!/org/apache/kafka/clients/consumer/ConsumerRecord.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/avro_generated/com/ww/UserV1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/avro/user-v1.avsc">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -629,29 +453,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="16" selection-end-column="62" />
+        <state>
+          <caret column="45" selection-start-column="31" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/producer/KafkaProducerV1.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/util/KafkaConstants.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="49" />
-          <folding>
-            <element signature="e#18#45#0" expanded="true" />
-          </folding>
+        <state>
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/consumer/KafkaConsumerV1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="-7">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#18#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar!/org/slf4j/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="355" column="16" selection-start-line="355" selection-start-column="16" selection-end-line="355" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar!/org/slf4j/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="386" column="25" selection-start-line="386" selection-start-column="25" selection-end-line="386" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/producer/KafkaProducerV1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="e#18#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
